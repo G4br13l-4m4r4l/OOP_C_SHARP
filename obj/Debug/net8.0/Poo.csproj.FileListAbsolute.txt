@@ -1,0 +1,14 @@
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\bin\Debug\net8.0\Poo.exe
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\bin\Debug\net8.0\Poo.deps.json
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\bin\Debug\net8.0\Poo.runtimeconfig.json
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\bin\Debug\net8.0\Poo.dll
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\bin\Debug\net8.0\Poo.pdb
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\Poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\Poo.AssemblyInfoInputs.cache
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\Poo.AssemblyInfo.cs
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\Poo.csproj.CoreCompileInputs.cache
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\Poo.dll
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\refint\Poo.dll
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\Poo.pdb
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\Poo.genruntimeconfig.cache
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\ref\Poo.dll
