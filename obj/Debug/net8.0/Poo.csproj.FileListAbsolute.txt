@@ -12,3 +12,4 @@ C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\refint\Poo.dll
 C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\Poo.pdb
 C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\Poo.genruntimeconfig.cache
 C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\ref\Poo.dll
+C:\Users\L4g_1n\Documents\C#\first_steps\Poo\obj\Debug\net8.0\Poo.sourcelink.json

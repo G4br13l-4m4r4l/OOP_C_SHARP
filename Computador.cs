@@ -11,7 +11,7 @@ namespace Poo
         String placa_mae;
         String Processador;
         String Armazenamento;
-        String placa_video;
+        String placa_video = "nenhuma";
         int RAM;
         bool ligada = false;
 
@@ -40,7 +40,7 @@ namespace Poo
         public void Upgrade() {
             try
             {
-                Console.Write("Qual componente deseja realizar upgrade?\n1-Placa mãe\n2-Processador\n3-Armazenamento\n4-RAM\n5-Placa de Vídeo");
+                Console.Write("Qual componente deseja realizar upgrade?\n1-Placa mãe\n2-Processador\n3-Armazenamento\n4-RAM\n5-Placa de Vídeo\n");
                 int componente = Convert.ToInt32(Console.ReadLine());
                 switch (componente)
                 {
@@ -104,6 +104,7 @@ namespace Poo
             }
         }
 
+        //fazendo loading
         static void AtualizarLoading(int percentual)
         {
             int tamanhoBarra = Console.WindowWidth - 20; 
@@ -121,8 +122,29 @@ namespace Poo
             String resp = Console.ReadLine();
             if(resp == "s")
             {
-                Console.WriteLine("");
+                bool sair = false;
+                while(sair!= true)
+                {
+                    Console.WriteLine("____navegando____");
+                    Console.Write("Continuar? (s/n) ");
+                    String resp_2 = Console.ReadLine();
+                    if(resp_2 != "s")
+                    {
+                        sair = true;
+                        Console.WriteLine("Não está mais navegando!\n");
+                    }
+                }
             }
+        }
+        public void Mostrar()
+        {
+            Console.WriteLine("\n=================================\n\tESPECIFICAÇÕES\n=================================\n");
+            Console.WriteLine($"Placa mãe: {placa_mae}");
+            Console.WriteLine($"Processador: {Processador}");
+            Console.WriteLine($"Armazenamento: {Armazenamento}");
+            Console.WriteLine($"Memória RAM: {RAM}GB");
+            Console.WriteLine($"placa de vídeo: {placa_video}");
+            Console.WriteLine($"ON/OFF: {ligada}\n");
         }
     }
 }

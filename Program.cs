@@ -16,7 +16,7 @@ namespace Poo
             Console.WriteLine("|       ||   |___ |   |    |       ||  | |  ||       ||   |___");
             Console.WriteLine("|       ||    ___||   |___ |      _||  |_|  ||       ||    ___|");
             Console.WriteLine("|   _   ||   |___ |       ||     |_ |       || ||_|| ||   |___");
-            Console.WriteLine("|__| |__||_______||_______||_______||_______||_|   |_||_______|");
+            Console.WriteLine("|__| |__||_______||_______||_______||_______||_|   |_||_______|\n");
             Console.Beep();
 
 
@@ -24,13 +24,13 @@ namespace Poo
             String name = Console.ReadLine();
 
             Console.WriteLine($"Olá {name}");
-            Console.WriteLine("Deseja montar um computador? (s/n)");
+            Console.Write("Deseja montar um computador? (s/n) ");
             String resp = Console.ReadLine();
 
 
             if (resp == "s")
             {
-                Console.Write("Digite qual a sua placa: ");
+                Console.Write("Digite qual a sua placa mãe: ");
                 String placa = Console.ReadLine();
                 Console.Write("Digite qual o seu processador: ");
                 String processador = Console.ReadLine();
@@ -44,7 +44,7 @@ namespace Poo
                 {
                     try
                     {
-                        Console.WriteLine("O que deseja fazer agora? (1-ligar_Desligar/2-utilizar/3-/4-/5-Sair)");
+                        Console.WriteLine("O que deseja fazer agora? (1-ligar_Desligar/2-Navegar/3-Especificações/4-Upgrade/5-Sair)");
                         int actions = Convert.ToInt32(Console.ReadLine());
                         switch (actions)
                         {
@@ -55,11 +55,14 @@ namespace Poo
                                 computer.utilizar();
                                 break;
                             case 3:
+                                computer.Mostrar();
                                 break;
                             case 4:
+                                computer.Upgrade();
                                 break;
                             case 5:
                                 continuar = false;
+                                Console.WriteLine($"Até mais {name} !");
                                 Console.WriteLine("\n=================================\n\tExiting program\n=================================\n");
                                 break;
                             default:
